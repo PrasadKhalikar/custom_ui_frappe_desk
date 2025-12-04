@@ -1,0 +1,348 @@
+{
+ "actions": [],
+ "autoname": "field:theme_name",
+ "creation": "2024-05-23 12:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "theme_name",
+  "section_colors",
+  "primary_button_color",
+  "secondary_button_color",
+  "danger_button_color",
+  "light_button_color",
+  "section_backgrounds",
+  "background_color",
+  "sidebar_background",
+  "topbar_background",
+  "card_background",
+  "table_background",
+  "page_head_background",
+  "table_head_background",
+  "alt_row_background",
+  "section_bg_color",
+  "section_fonts",
+  "font_family",
+  "label_color",
+  "form_border_color",
+  "hover_color",
+  "section_styles",
+  "card_border_radius",
+  "card_shadow_style",
+  "section_new_components",
+  "button_corner_radius",
+  "field_corner_radius",
+  "dialog_corner_radius",
+  "checkbox_radius",
+  "modal_header_color",
+  "modal_footer_color",
+  "modal_background",
+  "tab_background",
+  "tab_active_background",
+  "tab_text_color",
+  "tab_active_text_color",
+  "toast_background",
+  "toast_text_color",
+  "dropdown_background",
+  "dropdown_item_hover",
+  "section_v16_components",
+  "badge_radius",
+  "badge_bg_color",
+  "badge_text_color",
+  "avatar_radius",
+  "progress_radius",
+  "progress_bg_color",
+  "sidebar_active_item_bg",
+  "sidebar_active_item_text",
+  "breadcrumb_color",
+  "switch_checked_bg"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "theme_name",
+   "fieldtype": "Data",
+   "label": "Theme Name",
+   "default": "Theme Settings"
+  },
+  {
+   "fieldname": "section_colors",
+   "fieldtype": "Section Break",
+   "label": "Colors"
+  },
+  {
+   "fieldname": "primary_button_color",
+   "fieldtype": "Color",
+   "label": "Primary Button Color"
+  },
+  {
+   "fieldname": "secondary_button_color",
+   "fieldtype": "Color",
+   "label": "Secondary Button Color"
+  },
+  {
+   "fieldname": "danger_button_color",
+   "fieldtype": "Color",
+   "label": "Danger Button Color"
+  },
+  {
+   "fieldname": "light_button_color",
+   "fieldtype": "Color",
+   "label": "Light Button Color"
+  },
+  {
+   "fieldname": "section_backgrounds",
+   "fieldtype": "Section Break",
+   "label": "Backgrounds"
+  },
+  {
+   "fieldname": "background_color",
+   "fieldtype": "Color",
+   "label": "Page Background"
+  },
+  {
+   "fieldname": "sidebar_background",
+   "fieldtype": "Color",
+   "label": "Sidebar Background"
+  },
+  {
+   "fieldname": "topbar_background",
+   "fieldtype": "Color",
+   "label": "Topbar Background"
+  },
+  {
+   "fieldname": "card_background",
+   "fieldtype": "Color",
+   "label": "Card Background"
+  },
+  {
+   "fieldname": "table_background",
+   "fieldtype": "Color",
+   "label": "Table Background"
+  },
+  {
+   "fieldname": "page_head_background",
+   "fieldtype": "Color",
+   "label": "Page Head Background"
+  },
+  {
+   "fieldname": "table_head_background",
+   "fieldtype": "Color",
+   "label": "Table Head Background"
+  },
+  {
+   "fieldname": "alt_row_background",
+   "fieldtype": "Color",
+   "label": "Alternative Row Background"
+  },
+  {
+   "fieldname": "section_bg_color",
+   "fieldtype": "Color",
+   "label": "Section Background"
+  },
+  {
+   "fieldname": "section_fonts",
+   "fieldtype": "Section Break",
+   "label": "Fonts & Borders"
+  },
+  {
+   "fieldname": "font_family",
+   "fieldtype": "Data",
+   "label": "Font Family"
+  },
+  {
+   "fieldname": "label_color",
+   "fieldtype": "Color",
+   "label": "Label Color"
+  },
+  {
+   "fieldname": "form_border_color",
+   "fieldtype": "Color",
+   "label": "Form Border Color"
+  },
+  {
+   "fieldname": "hover_color",
+   "fieldtype": "Color",
+   "label": "Hover Color"
+  },
+  {
+   "fieldname": "section_styles",
+   "fieldtype": "Section Break",
+   "label": "Styles"
+  },
+  {
+   "fieldname": "card_border_radius",
+   "fieldtype": "Data",
+   "label": "Card Border Radius"
+  },
+  {
+   "fieldname": "card_shadow_style",
+   "fieldtype": "Data",
+   "label": "Card Shadow Style"
+  },
+  {
+   "fieldname": "section_new_components",
+   "fieldtype": "Section Break",
+   "label": "New Components & Customization"
+  },
+  {
+   "fieldname": "button_corner_radius",
+   "fieldtype": "Data",
+   "label": "Button Corner Radius"
+  },
+  {
+   "fieldname": "field_corner_radius",
+   "fieldtype": "Data",
+   "label": "Input/Field Corner Radius"
+  },
+  {
+   "fieldname": "dialog_corner_radius",
+   "fieldtype": "Data",
+   "label": "Dialog/Modal Corner Radius"
+  },
+  {
+   "fieldname": "checkbox_radius",
+   "fieldtype": "Data",
+   "label": "Checkbox Radius"
+  },
+  {
+   "fieldname": "modal_header_color",
+   "fieldtype": "Color",
+   "label": "Modal Header Color"
+  },
+  {
+   "fieldname": "modal_footer_color",
+   "fieldtype": "Color",
+   "label": "Modal Footer Color"
+  },
+  {
+   "fieldname": "modal_background",
+   "fieldtype": "Color",
+   "label": "Modal Background"
+  },
+  {
+   "fieldname": "tab_background",
+   "fieldtype": "Color",
+   "label": "Tab Background"
+  },
+  {
+   "fieldname": "tab_active_background",
+   "fieldtype": "Color",
+   "label": "Tab Active Background"
+  },
+  {
+   "fieldname": "tab_text_color",
+   "fieldtype": "Color",
+   "label": "Tab Text Color"
+  },
+  {
+   "fieldname": "tab_active_text_color",
+   "fieldtype": "Color",
+   "label": "Tab Active Text Color"
+  },
+  {
+   "fieldname": "toast_background",
+   "fieldtype": "Color",
+   "label": "Toast/Alert Background"
+  },
+  {
+   "fieldname": "toast_text_color",
+   "fieldtype": "Color",
+   "label": "Toast/Alert Text Color"
+  },
+  {
+   "fieldname": "dropdown_background",
+   "fieldtype": "Color",
+   "label": "Dropdown Background"
+  },
+  {
+   "fieldname": "dropdown_item_hover",
+   "fieldtype": "Color",
+   "label": "Dropdown Item Hover"
+  },
+  {
+   "fieldname": "section_v16_components",
+   "fieldtype": "Section Break",
+   "label": "Additional Components (v16)"
+  },
+  {
+   "fieldname": "badge_radius",
+   "fieldtype": "Data",
+   "label": "Badge Radius"
+  },
+  {
+   "fieldname": "badge_bg_color",
+   "fieldtype": "Color",
+   "label": "Badge Background"
+  },
+  {
+   "fieldname": "badge_text_color",
+   "fieldtype": "Color",
+   "label": "Badge Text Color"
+  },
+  {
+   "fieldname": "avatar_radius",
+   "fieldtype": "Data",
+   "label": "Avatar Radius"
+  },
+  {
+   "fieldname": "progress_radius",
+   "fieldtype": "Data",
+   "label": "Progress Bar Radius"
+  },
+  {
+   "fieldname": "progress_bg_color",
+   "fieldtype": "Color",
+   "label": "Progress Bar Background"
+  },
+  {
+   "fieldname": "sidebar_active_item_bg",
+   "fieldtype": "Color",
+   "label": "Sidebar Active Item Background"
+  },
+  {
+   "fieldname": "sidebar_active_item_text",
+   "fieldtype": "Color",
+   "label": "Sidebar Active Item Text Color"
+  },
+  {
+   "fieldname": "breadcrumb_color",
+   "fieldtype": "Color",
+   "label": "Breadcrumb Text Color"
+  },
+  {
+   "fieldname": "switch_checked_bg",
+   "fieldtype": "Color",
+   "label": "Switch Checked Background"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-23 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Custom Desk",
+ "name": "Theme Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
