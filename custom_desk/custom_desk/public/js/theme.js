@@ -127,7 +127,7 @@ function apply_theme(doc) {
             background-color: var(--topbar-bg) !important;
         }
 
-        .frappe-card, .widget, .module-card, .card, .dashboard-card, .page-card, .section-card, .list-row-container {
+        body .frappe-card, body .widget, body .module-card, body .card, body .dashboard-card, body .page-card, body .section-card, body .list-row-container, body .layout-main-section {
             background-color: var(--card-bg) !important;
             border-radius: var(--card-radius) !important;
             box-shadow: var(--card-shadow);
